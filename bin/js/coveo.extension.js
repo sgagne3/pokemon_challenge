@@ -127,13 +127,13 @@ module.exports = Coveo;
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.hu = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "d7656cd-" + chunkId + "-wps-hmr.js";
+/******/ 			return "15a5f84-" + chunkId + "-wps-hmr.js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
 /******/ 	(() => {
-/******/ 		__webpack_require__.hmrF = () => ("d7656cd-wps-hmr.json");
+/******/ 		__webpack_require__.hmrF = () => ("15a5f84-wps-hmr.json");
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
