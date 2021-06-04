@@ -23,20 +23,20 @@
 
 <body id="search" class='CoveoSearchInterface' data-enable-history="true">
   <div class="CoveoAnalytics"></div>
-  <div class="coveo-tab-section">
-    <a class="CoveoTab" data-id="All" data-caption="All Content"></a>
+  <div class="coveo-tab-section" style="background-color: red;color:white;">
+    <a class="CoveoTab" data-id="All" data-caption="Pokédex" ></a>
   </div>
   <div class="coveo-search-section">
     <img src="../bin/image/pokeballcov.gif" style="height:75px;width:75px;">
-    <div class="CoveoSearchbox" data-enable-omnibox="true"></div>
+    <div class="CoveoSearchbox" data-placeholder="Gotta Catch 'Em All!" data-enable-omnibox="true"></div>
     <div class="CoveoFieldSuggestions" data-field="@name"></div>
     <span class="CoveoResultFolding" data-result-template-id="basic"></span>
 
   </div>
   <div class="coveo-main-section">
     <div class="coveo-facet-column">
-      <div class="CoveoFacet" data-title="Generation" data-field="@generation" data-id="GenerationFacet"></div>
-      <div class="CoveoFacet" data-title="Pokemon Type" data-field="@type" data-enable-toggling-operator="true"></div>
+      <div class="CoveoFacet" data-title="Generation" data-field="@generation" data-sort-criteria="alphaascending" data-id="GenerationFacet"></div>
+      <div class="CoveoFacet" data-title="Pokemon Type" data-sort-criteria="alphaascending" data-field="@type" data-enable-toggling-operator="true"></div>
       <div class="CoveoFacetSlider" data-display-as-percent-enabled="false" 
          data-prebind-field="fieldTranslator" data-field="@number" data-range-slider="true"
         data-rounded="0" data-start="0" data-title="Pokémon Number" data-date-field="false"
